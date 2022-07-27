@@ -1,4 +1,4 @@
-require_relative './app/repositories/customer_repository'
+require_relative './app/repositories/employee_repository'
 
-repo = CustomerRepository.new('data/customers.csv')
+repo = EmployeeRepository.new('data/employees.csv')
 p repo
